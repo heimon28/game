@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dise Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="countNumber">
+      <div class="firstCount"></div>
+      <div class="secondCount"></div>
+    </div>
+
+    <div class="grid-container">
+      <div class="item player" id="player1">YOU</div>
+      <div class="item player" id="player2">Oppenent</div>
+      <div class="item dise-container">
+        <div id="diseOne" class="dise d-one">
+          <div class="circle">0</div>
+          <div class="circle">1</div>
+          <div class="circle">2</div>
+          <div class="circle">3</div>
+          <div class="circle">4</div>
+          <div class="circle">5</div>
+        </div>
+
+        <div id="diseTwo" class="dise d-two">
+          <div class="circle">0</div>
+          <div class="circle">1</div>
+          <div class="circle">2</div>
+          <div class="circle">3</div>
+          <div class="circle">4</div>
+          <div class="circle">5</div>
+        </div>
+      </div>
+    
+      <button id="firstBtn">Start</button>
+    </div>
+    <div class="scoreBord">
+        <div class="score bordname">Scores</div>
+        <div class="score">You</div>
+        <div class="score">Oppenent</div>
+        <div class="score playerScore">0</div>
+        <div class="score oppenentScore">0</div>
+        <div class="score target"><input id="number" placeholder="0" type="number">Round</div>
+        <div class="score reset"><form action="index.html"><button id="reset" type="submit">Reset</button></form></div>
+    </div>
+       
+    <div class="mesContainer visibility">
+        <div class="mes">You Win</div>
+        <div class="newGame"><form action="index.html"><button id="newGame" type="submit">New Game</button></form></div>
+
+    </div>
+       
+
+    <script src="script.js"></script>
+  </body>
+</html>
